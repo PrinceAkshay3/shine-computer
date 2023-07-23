@@ -1,0 +1,91 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.ft14 {
+font-size: 44px !important;
+  color:red;
+  
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width:100px;
+  height:100px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  color: black;
+  
+
+}
+
+.bottomleft img{
+    height: 50px;
+    width: 50px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.middle h1{
+  font-weight: 900;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.bottomleft p{
+  font-weight: bolder;
+}
+
+#demo{
+  font-weight: 900;
+}
